@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 790px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(./ff.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.block {
+    max-width: 750px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp {
+    color: rgb(247, 12, 12);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+    background-image: url(./images.jpg);
+    background-position:left top -20px; 
+    background-size: 100%;   
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    border: none;
+}
+.inp:focus{
+    outline: none;
+}
+.btn {
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+    background-image: url(./kulpinay.jpeg);
+    background-size: 98%;
+    background-repeat: no-repeat;
+    background-position: right top -5px;
+    cursor: pointer;
+}
+.list {
+    text-transform: capitalize;  
+      list-style-type: none;
+    font-size: 24px;
+    font-weight: bolder;
+    color: red;
+}
+li {
+    background-color: rgba(165, 89, 252, 0.658);
+    margin: 4px;
+}
